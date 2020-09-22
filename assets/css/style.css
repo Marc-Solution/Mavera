@@ -32,6 +32,13 @@ body {
     background: url('../images/flowers.jpg') no-repeat center center;
     background-size: cover;
 }
+
+#sunrise-image {
+    width: 100%;
+    padding-top: 22%;
+    background: url('../images/sunrise.jpg') no-repeat center center;
+    background-size: cover;
+}
 /* ------------------------------------ General  -------------------------------- */
 
 .jumbotron {
