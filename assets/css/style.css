@@ -83,6 +83,21 @@ body {
     border: none;
 }
 
+/* ----------------------------- Sign-up ----------------------- */
+
+.sign-up {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.my-button-center {
+   text-align: center;
+}
+
+.button-symbol {
+    padding: 5px;
+}
+
 /* ----------------------------- Footer ----------------------- */
 footer {
     width: 100%;
