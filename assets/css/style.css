@@ -39,6 +39,13 @@ body {
     background: url('../images/sunrise.jpg') no-repeat center center;
     background-size: cover;
 }
+
+#contact-page-image {
+    width: 100%;
+    padding-top: 22%;
+    background: url('../images/water.jpg') no-repeat center center;
+    background-size: cover;
+}
 /* ------------------------------------ General  -------------------------------- */
 
 .jumbotron {
