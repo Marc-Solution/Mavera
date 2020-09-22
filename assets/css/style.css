@@ -32,7 +32,7 @@ body {
     background: url('../images/flowers.jpg') no-repeat center center;
     background-size: cover;
 }
-/* ------------------------------------ Home  -------------------------------- */
+/* ------------------------------------ General  -------------------------------- */
 
 .jumbotron {
     background-color: #fff;
@@ -57,7 +57,24 @@ body {
     text-transform: uppercase;
 }
 
+/* ----------------------------- Products ----------------------- */
 
+#products {
+    margin: 30px; 
+}
+
+.products {
+    padding: 40px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-border {
+    /* box-shadow: 5px 5px 5px grey;     */
+    border: none;
+}
 
 /* ----------------------------- Footer ----------------------- */
 footer {
