@@ -26,6 +26,32 @@ body {
     background-size: cover;
 }
 
+/* ------------------------------------ Home  -------------------------------- */
+
+.jumbotron {
+    background-color: #fff;
+}
+
+.copy-text {
+    /* font-family: "Roboto", sans-serif; */
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* ------------------------------------ Headings -------------------------------- */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.section-heading {
+    text-align: center;
+    padding: 2%;
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+}
+
+
 
 /* ----------------------------- Footer ----------------------- */
 footer {
