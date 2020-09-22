@@ -26,6 +26,12 @@ body {
     background-size: cover;
 }
 
+#flowers-image {
+    width: 100%;
+    padding-top: 22%;
+    background: url('../images/flowers.jpg') no-repeat center center;
+    background-size: cover;
+}
 /* ------------------------------------ Home  -------------------------------- */
 
 .jumbotron {
