@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <nav  id="navbar-position" class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+        <nav id="navbar-position" class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
             <a href="index.html" class="navbar-brand"><img src="assets/images/mavera-logo.png" alt="Mavera logo"></a>
             <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbar-menu">
                 <span class="navbar-toggler-icon"></span>
@@ -38,10 +38,10 @@
             </div>
         </nav>
     </header>
-    
-     <div id="contact-page-image"></div>
-    
-       <main class="container form">
+
+    <div id="contact-page-image"></div>
+
+    <main class="container form">
         <div class="row">
             <section class="col-8 contactForm">
 
@@ -54,18 +54,17 @@
                         a matter of hours to help you.</p>
 
                     <div class="row">
-
                         <!--Grid column-->
                         <div class="col-md-9 mb-md-0 mb-5">
-                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
+                            <form id="contact-form" name="contact-form" action="https://formdump.codeinstitute.net/"
+                                method="post">
                                 <!--Grid row-->
                                 <div class="row">
 
                                     <!--Grid column-->
                                     <div class="col-md-6">
                                         <div class="md-form mb-0">
-                                            <input type="text" id="name" name="name" class="form-control">
+                                            <input type="text" id="name" name="name" class="form-control" required>
                                             <label for="name" class="">Your name</label>
                                         </div>
                                     </div>
@@ -74,7 +73,7 @@
                                     <!--Grid column-->
                                     <div class="col-md-6">
                                         <div class="md-form mb-0">
-                                            <input type="text" id="email" name="email" class="form-control">
+                                            <input type="text" id="email" name="email" class="form-control" required>
                                             <label for="email" class="">Your email</label>
                                         </div>
                                     </div>
@@ -113,7 +112,8 @@
                             </form>
 
                             <div class="text-center text-md-left">
-                                <a class="btn btn-dark" id="contact-button" onclick="document.getElementById('contact-form').submit();">Send</a>
+                                <a class="btn btn-dark" id="contact-button"
+                                    onclick="document.getElementById('contact-form').submit();">Send</a>
                             </div>
                             <div class="status"></div>
                         </div>
@@ -134,12 +134,16 @@
                                     <p>hello@mavera.com</p>
                                 </li>
                             </ul>
-                        </div>            
-                    </div><!--Grid column-->
-
-                </section> <!--/ Row-->
-        </div> <!--/ col-->
-    </main> <!--/ container-->
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                </section>
+                <!--/ Row-->
+            </section>
+            <!--/ col-->
+    </main>
+    <!-- I have no idea why there is a bug here? -->
+    <!--/ container-->
 
 
     <footer>
@@ -157,7 +161,7 @@
             </ul>
         </div>
     </footer>
-    
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
@@ -169,4 +173,5 @@
     </script>
 
 </body>
+
 </html>
