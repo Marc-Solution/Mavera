@@ -61,9 +61,6 @@ body {
 .gray-background{
     background-color: #e8e8e8;
 }
-
-
-
 /* ------------------------------------ Headings -------------------------------- */
 
 .uppercase {
@@ -96,20 +93,9 @@ body {
     border: none;
 }
 
-#modal-lavender {
-    background-color: #c3aed6;
-}
+/* ----------------------------- Sign-up ----------------------- */
 
-#modal-eucalyptus {
-    background-color: #ccf6c8;
-}
-
-#modal-citronella {
-    background-color: #ffefa0;
-}
-/* ----------------------------- Sign-up / Button style ----------------------- */
-
-.sign-up-margin {
+.sign-up {
     margin-top: 30px;
     padding: 20px;
 }
@@ -118,17 +104,11 @@ body {
    text-align: center;
 }
 
-.newsletter-form {
-    display: block;
+.button-symbol {
+    padding: 5px;
 }
 
-.input-field-margin {
-    margin: 15px;
-}
 
-.newsletter-background {
-    background-color: #c3aed6;
-}
 /* ----------------------------- Contact-form ----------------------- */ 
 
 .contactForm {

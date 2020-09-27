@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mavera Products</title>
+    <title>Mavera Home</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
     <script src="https://kit.fontawesome.com/4d697d2398.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <nav  id="navbar-position" class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+        <nav id="navbar-position" class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
             <a href="index.html" class="navbar-brand"><img src="assets/images/mavera-logo.png" alt="Mavera logo"></a>
             <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbar-menu">
                 <span class="navbar-toggler-icon"></span>
@@ -38,12 +38,12 @@
             </div>
         </nav>
     </header>
-    
-   <div class="main-img-container">
+
+    <div class="main-img-container">
         <div class="container-fluid" id="flowers-image"></div>
     </div>
 
-   <!-- Products -->
+    <!-- Products -->
     <main>
         <section id="products">
             <div class="container">
@@ -57,57 +57,150 @@
                         <div class="card-deck products">
                             <div class="card ml-1 card-border">
                                 <img src="assets/images/mavera-purple.png" class="card-img-top card-image"
-                                    alt="Natural deodorant image">
+                                    alt="Natural-deodorant">
                                 <div class="card-body">
                                     <h5 class="card-title">Lavender</h5>
-                                    <p class="card-text copy-text">
-                                        Not only will this Lavender deodorant keep you smelling fresh all day. 
-                                        It can also make you feel better. Research suggests that lavender oil, 
-                                        which is in this deodorant, may be useful for treating anxiety, insomnia, 
-                                        depression and restlessness.
-                                    </p>
-                                    <p><small>Ingredients: Organic lavender oil, spring water, bicarbonate</small></p>
+
+                                    <!-- Modal with pruduct info -->
+
+                                    <div class="row">
+                                        <div class="col my-button-center">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-lg btn-secondary" data-toggle="modal"
+                                                data-target="#modal-lavender">
+                                                Read More
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="modal-lavender" tabindex="-1" role="dialog"
+                                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body copy-text">
+                                                            <h2 class="section-heading uppercase">Lavender</h2>
+                                                            <p class="card-text">
+                                                                Not only will this Lavender deodorant keep you smelling
+                                                                fresh all day.
+                                                                It can also make you feel better. Research suggests that
+                                                                lavender oil,
+                                                                which is in this deodorant, may be useful for treating
+                                                                anxiety, insomnia,
+                                                                depression and restlessness.
+                                                            </p>
+                                                            <p>Ingredients: Organic lavender oil, spring water,
+                                                                bicarbonate</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="card card-border">
-                                <img src="assets/images/mavera-green.png" class="card-img-top "
-                                    alt="Natural deodorant image">
+                                <img src="assets/images/mavera-green.png" class="card-img-top " alt="Natural-deodorant">
                                 <div class="card-body">
                                     <h5 class="card-title">Eucalyptus</h5>
-                                    <p class="card-text copy-text">
-                                        Not only will this Eucalyptus deodorant keep you smelling fresh all day, 
-                                        it can be good for your health. Eucalyptus oil, which is in this deodorant, 
-                                        can enhance your immune system.
-                                    </p>
-                                    <p><small>Ingredients: Organic eucalyptus oil, spring water, bicarbonate</small></p>
+
+                                    <div class="row">
+                                        <div class="col my-button-center">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-lg btn-secondary" data-toggle="modal"
+                                                data-target="#modal-eucalyptus">
+                                                Read More
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="modal-eucalyptus" tabindex="-1" role="dialog"
+                                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body copy-text">
+                                                            <h2 class="section-heading uppercase">Eucalyptus</h2>
+                                                            <p class="card-text copy-text">
+                                                                Not only will this Eucalyptus deodorant keep you
+                                                                smelling fresh all day,
+                                                                it can be good for your health. Eucalyptus oil, which is
+                                                                in this deodorant,
+                                                                can enhance your immune system.
+                                                            </p>
+                                                            <p>Ingredients: Organic eucalyptus oil, spring water,
+                                                                bicarbonate</p>
+
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                             <div class="card card-border">
                                 <img src="assets/images/mavera-yellow.png" class="card-img-top "
-                                    alt="Natural deodorant image">
+                                    alt="Natural-deodorant">
                                 <div class="card-body">
                                     <h5 class="card-title">Citronella</h5>
-                                    <p class="card-text copy-text">
-                                        Not only will this Citronella deodorant keep you smelling fresh all day, 
-                                        it can be good for your blood pressure. A  2012 study, published in the 
-                                        Journal of Health Research, reports that inhaling citronella vapors may 
-                                        significantly reduce a person’s blood pressure, heart rate, and respiratory rate.
-                                    </p>
-                                    <p><small>Ingredients: Organic citronella oil, spring water, bicarbonate</small></p>
+                                    <div class="row">
+                                        <div class="col my-button-center">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-lg btn-secondary" data-toggle="modal"
+                                                data-target="#modal-citronella">
+                                                Read More
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="modal-citronella" tabindex="-1" role="dialog"
+                                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body copy-text">
+                                                            <h2 class="section-heading uppercase">Citronella</h2>
+                                                            <p class="card-text copy-text">
+                                                                Not only will this Citronella deodorant keep you
+                                                                smelling fresh all day,
+                                                                it can be good for your blood pressure. A 2012 study,
+                                                                published in the
+                                                                Journal of Health Research, reports that inhaling
+                                                                citronella vapors may
+                                                                significantly reduce a person’s blood pressure, heart
+                                                                rate, and respiratory rate.
+                                                            </p>
+                                                            <p>Ingredients: Organic citronella oil, spring water,
+                                                                bicarbonate</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            </div>
 
-             <div class="container jumbotron gray-background">
+            <div class="container jumbotron gray-background">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <h3 class="section-heading uppercase">Retailers</h3>
                         <p class="copy-text">
-                            You can find Mavera’s products in stores all over sweden. 
-                            Retailers that sell our organic deodorants are: Ica supermarket, Coop, 
+                            You can find Mavera’s products in stores all over sweden.
+                            Retailers that sell our organic deodorants are: Ica supermarket, Coop,
                             Hemköp, Citygross, Åhlens and at the Life stores. The price will range from 4 to 5 €.
                         </p>
                     </div>
@@ -116,22 +209,22 @@
                     <div class="col-lg-8">
                         <h3 class="section-heading uppercase">You are awesome!</h3>
                         <p class="copy-text">
-                            A big thank you to you who are already using our products. 
-                            Thank you for making the choice to use natural friendly products. 
-                            You are awesome. You're a hero. Thank you for taking care of the world 
-                            and making it a better place for future generations.  
-                            Thank you for buying our natural organic deodorants and for 
-                            spreading the word. <i class="fas fa-heart"></i>   
+                            A big thank you to you who are already using our products.
+                            Thank you for making the choice to use natural friendly products.
+                            You are awesome. You're a hero. Thank you for taking care of the world
+                            and making it a better place for future generations.
+                            Thank you for buying our natural organic deodorants and for
+                            spreading the word. <i class="fas fa-heart"></i>
                             <br>
                             <br>
                             Also we want to give a big Thank you to you who is just here looking around.
-                         Thank you for showing interest in nature friendly living. You are a hero.     
-                         <br>
-                         <br>
-                                You guys are awesome. You’re doing yourself and the planet a favor. 
-                            Many small nature-friendly choices will eventually add up, and create a big shift. 
-                            Let’s make this big shift together so that we can leave a healthy happy earth 
-                            to our children, grandchildren and great grandchildren.  ￼
+                            Thank you for showing interest in nature friendly living. You are a hero.
+                            <br>
+                            <br>
+                            You guys are awesome. You’re doing yourself and the planet a favor.
+                            Many small nature-friendly choices will eventually add up, and create a big shift.
+                            Let’s make this big shift together so that we can leave a healthy happy earth
+                            to our children, grandchildren and great grandchildren. ￼
                         </p>
                     </div>
                 </div>
@@ -155,7 +248,7 @@
             </ul>
         </div>
     </footer>
-    
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
@@ -167,4 +260,5 @@
     </script>
 
 </body>
+
 </html>
