@@ -1,5 +1,7 @@
 ![alt](assets/images/mavera-logo.png)
 
+python3 -m http.server
+
 # MaVera
 
 A website for the company Mavera. The company's intention is to give information about and to sell their organic 100% natural deodorants. ( This is not a real company or product. They don't exist yet. This website is made for a school assignment. )
