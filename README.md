@@ -45,10 +45,9 @@ A website for the company Mavera. The company's intention is to give information
 
 #### Wireframe mockups:
 
-- Home
-- Products
-- About
-- Contact
+Click this link to see the wireframes.
+
+<https://marc-solution.github.io/mavera-wireframes/>
 
 
 ## Features
