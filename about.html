@@ -73,8 +73,8 @@
                 <p class="copy-text">
                     We care about the planet earth and all its habitants.
                     So it felt natural for us to make it our mission to help people live healthier lives,
-                    and also help the planet to be healthy. We will always use
-                    100% organic and natural ingredients in our products.
+                    and also help the planet to be healthy. As long as MaVera exists we will always use
+                    100% organic ingredients in our products.
                     <p class="copy-text">
                         Our Vision is to take care of this planet and its inhabitants, the best way we can,
                         so that we create a better world for us and future generations to come. Our intention
@@ -120,28 +120,26 @@
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle"></h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-
                                 <!-- Newsletter form -->
-                                <section class="newsletter-background">
+                                <form action="https://formdump.codeinstitute.net/" method="POST" class="newsletter-background">
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm-12">
                                                 <div class="content">
-                                                    <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+                                                    <h2 class="section-heading uppercase modal-headline">Sign up to our newsletter</h2>
                                                     <div class="input-group newsletter-form">
                                                         <div class="row input-field-margin">
-                                                            <input type="text" class="form-control"
-                                                                placeholder="Enter your name">
+                                                            <input id="name" type="text" name="name" class="form-control"
+                                                                placeholder="Enter your name" required>
                                                         </div>
                                                         <div class="row input-field-margin">
-                                                            <input type="email" class="form-control"
-                                                                placeholder="Enter your email">
+                                                            <input id="email" name="email" type="email" class="form-control"
+                                                                placeholder="Enter your email" required>
                                                         </div>
                                                         <span class="row input-group-btn input-field-margin">
                                                             <button class="btn btn-secondary" type="submit">Subscribe
@@ -152,7 +150,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </section>
+                                </form>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
