@@ -15,8 +15,9 @@
 
 <body>
     <header>
+        <!-- The nav bar I got from the bootstrap library -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
-            <a href="index.html" class="navbar-brand"><img src="assets/images/mavera-logo.png" alt="Mavera logo"></a>
+            <a href="index.html"><img src="assets/images/mavera-logo.png" alt="Mavera logo"></a>
             <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbar-menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -38,31 +39,32 @@
             </div>
         </nav>
     </header>
-
+ 
+ <!-- Banner image. I kept this code outside of the header and main tag because for some reason it didn't work as I wanted when it was inside them.-->
     <div class="main-img-container">
         <div class="container-fluid" id="flowers-image"></div>
     </div>
 
-    <!-- Products -->
     <main>
-        <section id="products">
+       <!-- This section contains product cards -->
+        <section id="products-section">
             <div class="container">
                 <div class="row">
                     <div class="col">
                         <h3 class="section-heading uppercase">Products</h3>
                     </div>
                 </div>
+                <!-- Cards with product info. I got the cards from the bootstrap library-->
                 <div class="row ">
                     <div class="col">
-                        <div class="card-deck products">
-                            <div class="card ml-1 card-border">
+                        <div class="card-deck card-padding">
+                            <div class="card card-border">
                                 <img src="assets/images/mavera-purple.png" class="card-img-top card-image"
                                     alt="Natural-deodorant">
                                 <div class="card-body">
                                     <h5 class="card-title">Lavender</h5>
 
-                                    <!-- Modal with pruduct info -->
-
+                                    <!-- Modal with pruduct info. Got this modal from the bootstrap library-->
                                     <div class="row">
                                         <div class="col my-button-center">
                                             <!-- Button trigger modal -->
@@ -88,7 +90,8 @@
                                                                 depression and restlessness.
                                                             </p>
                                                             <p>Ingredients: Organic lavender oil, spring water,
-                                                                bicarbonate</p>
+                                                                bicarbonate
+                                                            </p>
                                                         </div>
                                                         <div class="modal-footer">
                                                             <button type="button" class="btn btn-secondary"
@@ -101,6 +104,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="card card-border">
                                 <img src="assets/images/mavera-green.png" class="card-img-top " alt="Natural-deodorant">
                                 <div class="card-body">
@@ -129,8 +133,8 @@
                                                                 can enhance your immune system.
                                                             </p>
                                                             <p>Ingredients: Organic eucalyptus oil, spring water,
-                                                                bicarbonate</p>
-
+                                                                bicarbonate
+                                                            </p>
                                                         </div>
                                                         <div class="modal-footer">
                                                             <button type="button" class="btn btn-secondary"
@@ -144,6 +148,7 @@
 
                                 </div>
                             </div>
+
                             <div class="card card-border">
                                 <img src="assets/images/mavera-yellow.png" class="card-img-top "
                                     alt="Natural-deodorant">
@@ -175,7 +180,8 @@
                                                                 rate, and respiratory rate.
                                                             </p>
                                                             <p>Ingredients: Organic citronella oil, spring water,
-                                                                bicarbonate</p>
+                                                                bicarbonate
+                                                            </p>
                                                         </div>
                                                         <div class="modal-footer">
                                                             <button type="button" class="btn btn-secondary"
@@ -192,8 +198,9 @@
                     </div>
                 </div>
             </div>
-            </div>
-
+        </section>
+        <!-- This section contains retailer info -->
+        <section>
             <div class="container jumbotron gray-background">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
@@ -215,26 +222,25 @@
                             and making it a better place for future generations.
                             Thank you for buying our natural organic deodorants and for
                             spreading the word. <i class="fas fa-heart"></i>
-                            <br>
-                            <br>
+                        </p>
+                        <p class="copy-text">        
                             Also we want to give a big Thank you to you who is just here looking around.
                             Thank you for showing interest in nature friendly living. You are a hero.
-                            <br>
-                            <br>
+                        </p>
+                        <p class="copy-text">
                             You guys are awesome. You’re doing yourself and the planet a favor.
                             Many small nature friendly choices will eventually add up, and create a big shift.
                             Let’s make this big shift together so that we can leave a healthy happy earth
-                            to our children, grandchildren and great grandchildren. ￼
+                            to our children, grandchildren and great grandchildren.
                         </p>
                     </div>
                 </div>
             </div>
-
-        </section>
+        </section>    
     </main>
 
     <footer>
-        <div class="wrapper">
+        <div>
             <ul class="social-links">
                 <li>
                     <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>

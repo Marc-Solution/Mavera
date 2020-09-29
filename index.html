@@ -15,8 +15,9 @@
 
 <body>
     <header>
+        <!-- The nav bar I got from the bootstrap library -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
-            <a href="index.html" class="navbar-brand"><img src="assets/images/mavera-logo.png" alt="Mavera logo"></a>
+            <a href="index.html"><img src="assets/images/mavera-logo.png" alt="Mavera logo"></a>
             <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbar-menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -39,50 +40,49 @@
         </nav>
     </header>
     
-    <!-- Banner image -->
-    <div class="main-img-container">
+    <!-- Banner image. I kept this code outside of the header and main tag because for some reason it didn't work as I wanted when it was inside them.-->
+    <div id="main-img-container">
         <div class="container-fluid" id="main-image"></div>
     </div>
-    <!-- Main content -->
-     
-    <main id="home" class="main-content">
 
-        <div class="container jumbotron">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <h3 class="section-heading uppercase">NATURAL ORGANIC DEODORANT THAT REALLY WORKS!</h3>
-                    <p class="copy-text">
-                    Say goodbye to odors and hello to smelling fresh. This simple but powerful natural recipe keeps odor away. 
-                    It is all natural. There is nothing in these natural deodorants that is less than good for your body or nature.
-                     It's easy to apply and it keeps you smelling fresh all day long.
-                    </p>
+    <main>
+        <section>
+            <div class="container jumbotron">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h3 class="section-heading uppercase">NATURAL ORGANIC DEODORANT THAT REALLY WORKS!</h3>
+                        <p class="copy-text">
+                        Say goodbye to odors and hello to smelling fresh. This simple but powerful natural recipe keeps odor away. 
+                        It is all natural. There is nothing in these natural deodorants that is less than good for your body or nature.
+                        It's easy to apply and it keeps you smelling fresh all day long.
+                        </p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h3 class="section-heading uppercase">100% natural ingredients!</h3>
+                        <p class="copy-text">
+                            Made with lots of love and only organic natural ingredients. These natural organic 
+                            deodorants are free of Aluminium, free of Paraben, free of Alcohol and yet it will 
+                            eliminate odor on contact. No ingredients are harmful for your body or nature. 
+                            All ingredients in these natural deodorants are organic and are actually good for your body.
+                            It is a super simple recipe and it really works. It is so simple you could do it yourself 
+                            (but most likely you won't....so we made it for you). Made with organic essential oils, bicarbonate 
+                            and spring water (that we get ourselves from a natural spring in the Nacka nature reserve in Stockholm, Sweden).
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <h3 class="section-heading uppercase">100% natural ingredients!</h3>
-                    <p class="copy-text">
-                        Made with lots of love and only organic natural ingredients. These natural organic 
-                        deodorants are free of Aluminium, free of Paraben, free of Alcohol and yet it will 
-                        eliminate odor on contact. No ingredients are harmful for your body or nature. 
-                        All ingredients in these natural deodorants are organic and are actually good for your body.
-                         It is a super simple recipe and it really works. It is so simple you could do it yourself 
-                         (but most likely you won't....so we made it for you). Made with organic essential oils, bicarbonate 
-                         and spring water (that we get ourselves from a natural spring in the Nacka nature reserve in Stockholm, Sweden).
-                    </p>
-                </div>
-            </div>
-        </div>
+        </section>
 
-          <!-- what customers say -->
-        <section class="container gray-background">
+          <!-- what customers say. The code in this part I got from following the instructions from the whiskey drop assignment -->
+        <section class="container gray-background jumbotron">
             <div class="container-wrapper">
                 <div class="container quotes-container content-container">
                     <section class="quotes">
                         <div class="row">
                             <div class="col-12 page-header">
                                 <h3 class="text-uppercase section-heading">What customers say</h3>
-                                <!-- <hr class="block-divider block-divider-short"> -->
                             </div>
                         </div>
 
@@ -135,9 +135,9 @@
         </section>
     </main>
 
-
     <footer>
-        <div class="wrapper">
+        <!-- I got the code for this footer from folloing the instructions for the Love running web-site assignment. -->
+        <div>
             <ul class="social-links">
                 <li>
                     <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
