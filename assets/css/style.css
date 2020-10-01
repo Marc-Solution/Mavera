@@ -75,6 +75,13 @@ body {
     text-transform: uppercase;
 }
 
+/* ----------------------------- what customers say section ----------------------- */
+
+.customer-image {
+    height: 100px;
+    width: 100px;
+}
+
 /* ----------------------------- Products page ----------------------- */
 
 #products-section {
