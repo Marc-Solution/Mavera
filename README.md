@@ -45,10 +45,39 @@ A website for the company Mavera. The company's intention is to give information
 
 #### Wireframe mockups:
 
-Click this link to see the wireframes.
+For wirefarmaing I used [Balsamiq](https://balsamiq.com)
+
+Click this link to see my wireframes.
 
 <https://marc-solution.github.io/mavera-wireframes/>
 
+### Design choises
+
+I wanted the design to be very simple and give a calming feeling of nature. Therefor I chose to have nature pictures on every page.
+
+### Images
+
+The company's aim is to reach people that care about nature, therefor I used beautiful nature images to remind the user of the beauty of nature.
+
+### All the images have a symbolic meaning
+
+- The image on the home page is beautiful forest image with the products in it. The symbolism of this image is to show that these products are natural.
+
+- The image on the products page is a tree with flowers. Flowers smell good, so the intention is to remind the user of fresh scents.
+- On the about page there is an image of a sunrise. According to some cultures a sunrise is a symbol for a new beginning and victory. Why i choose this symbol is because the company vision and mission is to create a new better world and to overcome destructive habits.
+- On the contact page there is a pleasant looking image of water. The symbolism of this image is: Water connects us all. 
+
+### Colors
+
+Most of the page is in black, white and gray. I used colorful images to sparkle up the page. 
+
+In the product modals I use colorful backgrounds.
+
+- For Lavender I used a purple background color because Lavender i the color purple.
+- For EucalyptusI used a green background color because  eucalyptus leaves are green.
+- For Citronella I used a yellow background color because a citrus kind of smell is associated with the the collor yellow.
+
+For the newsletter form I used the sam purple color as for the Lavender popup, because I thought it looked good. 
 
 ## Features
 
