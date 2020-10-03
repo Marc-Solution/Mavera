@@ -28,9 +28,9 @@ A website for the company Mavera. The company's intention is to give information
 - Find organic deodorants to buy ( and later on other organic products )
 - Find information about organic deodorants
 - Learn about why to use organic products
-- Learn about the dangers of using non organic deodorants
 
-#### Client stories:
+
+#### User stories:
 
 1. As a new visitor to this company website, I want to instantly know what this company sells to see if it fits my needs.
 2. As a visitor to this website, I want to easily navigate the site so that I can find what I am looking for.
@@ -138,21 +138,127 @@ The contact form has 4 input fields and a submit button. These are the input fie
 
 ## Testing
 
+---
+
+### Browsers I tested
+
+- Chrome
+- Firefox
+- Safari
+- Opera
+
+I tried these browsers. I looked at all the different sizes in the inspect mode ( Except for in safari, because it does not have that option). It works in widescreen, desktop, tablet and mobile.
+I have tested it on my laptop computer and also on a big screen. I tested it on two different Iphones and on a Samsung Galaxy. It works as it should on all devises.
+
+### Changes I made
+
+When testing the products cards on the smallest size smartphone and also the tablet size in google chrome, Firefox and Opera it looked strange. The text got very stretched out and it didn’t look so good. I also tested this on a real Iphone and a Samsung Galaxy with the same result. I removed the product info text from the card and changed it to a button with the text Read more. This button opens a modal with the product info text.
+
+### W3 validator
+
+#### HTML validator - https://validator.w3.org/
+
+I tested my code in the w3 html validator. I got two errors. The first error was in the what customers say section in the index.html page. The problem was that there was no header directly after the section tag. The header came later in the section. I moved the header so that it comes directly after the section tag. It worked and it was approved.
+
+The second error was in the same section. It had to do with the customer review images. I am not really sure exactly what the second error was. I changed these two things and it got approved. 
+
+- The div that contained the customer images had a class attribute but with no value. I removed that class attribute from the div tag. 
+- Secondly, the hight and width properties for the customer images was in the img tag. I moved the hight and width properties to my style.css. 
+
+After doing these changes the code was approved by W3 html validator.
+
+#### CSS validator - https://jigsaw.w3.org/css-validator/
+
+Again I got two errors. But this time the errors where not from any code i've written in my workspace. The errors were from the bootstrap library. The errors were found in this link https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css
+
+There where also some warnings. Again it was not from any code I’ve written. It came from the bootsnipp code I use for the newsletter. The warning came from this link script //cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js
+
+I wrote to tutor assistance. They said it will be ok as long as I mention it here in this README. 
+
+### Contact and newsletter forms
+
+I tested the contact and newsletter forms. 
+- When submitting without any message an error message about the required fields appears.
+- When submitting with an invalid email address an error message about the required fields appears.
+- When submitting the form with all inputs valid a success message appears.
 
 ## Deployment
+
+---
+
+This projects was developed using Gitpod and Vs code. committed to git and pushed to GitHub from Gitpod. The website is published on Github pages. To view the web-site click the following link. https://marc-solution.github.io/Mavera/
 
 
 ## Credits
 
+---
+
+### Code 
+
+This project uses bootstrap4
+
+- navbar
+    - I followed the instructions from the whiskey drop page and did a similar nav for this page, with a little changes.
+
+- Footer
+    - I got the code for this footer from following the instructions for the Love Running web-site assignment.
+    - I learned from this tutorial how to make the footer stick at the bottom. https://www.youtube.com/watch?v=US_3XvufMLU
+
+- Responsive image
+    - I learned from this tutorial how to make the image under navbar (on all pages) responsive. https://www.youtube.com/watch?v=VF5kD6QEEag
+
+- Modal Popup
+    - The code for the modal I got from the bootstrap documentation. I changed the code a little bit. I use the modal in the products cards and for the newsletter.
+    - The changes I did for the products modal was that I removed the modal header and added a background color. I inserted a text with product information.
+    - In the newsletter modal I inserted a newsletter form
+
+- Newsletter form
+    - The code for the newsletter I got from https://bootsnipp.com/snippets/AlM7P
+    - I made some changes. I did not use any of the css code from this bootsnipp newsletter code. I did my own css code. I changed the background color and I added a name input field 
+
+- Contact form
+    - The contact form is a mix between:
+        - My own code
+        - code that i got from following this tutorial https://www.youtube.com/watch?v=52pEihWDQ9A
+        - And I got some parts from the bootstrap documentation
+
+First I followed the tutorial but i did not use a background image. I also styled it a little bit differently. The address, phone number and email-address part I got from the bootstrap documentation.
+
+
 ### Content
 
-- The text for section Y was copied from the Wikipedia article Z
+The text for this web-site was written by Marco Deb.
+
+In the products information texts I mention some research facts about the ingredients.
+The sources to that information is:
+
+- For the Lavender deodorant https://www.medicalnewstoday.com/articles/265922#benefits
+- For the Eucalyptus deodorant https://www.medicalnewstoday.com/articles/266580#eucalyptus_health_benefits 
+- For the citronella deodorant https://www.medicalnewstoday.com/articles/327226#oils-to-use 
+
+
 
 ### Media
 
-- The photos used in this site were obtained from …
+- The logo image in the navbar was designed by Klara Kazmi
+
+- The banner image on the home page under navbar was obtained from https://unsplash.com/photos/7rIE9DPdo80 . The deodorant bottles on the image was added with Photoshop by Klara Kazmi
+- The bottle image where photographed by Klara Kazmi
+- The bottles were designed in Photoshop by Klara Kazmi
+- The banner image on the products page was obtained from https://www.hdwallpaper.nu/beautiful-flowers-wallpapers/ 
+- The banner image on the about page was obtained from https://www.zedge.net/wallpaper/d77a9e3e-91f3-30bf-9a9d-cbc4bc685a9e
+- The banner image on the contact page was obtained from https://wallpapersafari.com/w/tXIbiE
+- The woman customer image was obtained from https://unsplash.com/s/photos/woman
+- The man customer image was obtained from https://unsplash.com/photos/7rIE9DPdo80
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+I received inspiration for this project from: 
+
+- The Code Institutet assignments Love running, Whiskey drop and The Resume project
+
+- https://zenhabits.net/  I liked that it was very simple
+-I received inspiration for the text on the products for the retailers section from https://www.lilyohanna.se/en/ (Click the retailers link in the heading and you will find the section)
+- I received inspiration for the text on the home page from https://beekings.com/product/natural-deodorant-subscription/
+
 
