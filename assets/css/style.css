@@ -105,15 +105,21 @@ body {
 }
 
 #modal-lavender {
-    background-color: #c3aed6;
+    /* background-color: #c3aed6; */
+    background: url('../images/lavender.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 #modal-eucalyptus {
-    background-color: #ccf6c8;
+    /* background-color: #ccf6c8; */
+    background: url('../images/eucalyptus.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 #modal-citronella {
-    background-color: #ffefa0;
+    /* background-color: #ffefa0; */
+    background: url('../images/yellow-flowers.jpg') no-repeat center center;
+    background-size: cover;
 }
 /* ----------------------------- Newsletter Sign-up ----------------------- */
 
