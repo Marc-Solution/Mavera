@@ -62,6 +62,10 @@ body {
     background-color: #e8e8e8;
 }
 
+.button-position-center {
+   text-align: center;
+}
+
 /* ------------------------------------ Headings -------------------------------- */
 
 .uppercase {
@@ -116,10 +120,6 @@ body {
 .sign-up-margin {
     margin-top: 30px;
     padding: 20px;
-}
-
-.button-position-center {
-   text-align: center;
 }
 
 .newsletter-form {
