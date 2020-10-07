@@ -1,6 +1,6 @@
 ![alt](assets/images/mavera-logo.png)
 
-python3 -m http.server
+
 
 # MaVera
 
@@ -39,9 +39,10 @@ A website for the company Mavera. The company's intention is to give information
 5. As a customer or a potential customer to this company I want to support an environment friendly cause and I want to see if this company shares my values.
 6. As a customer or a potential customer to this company I want to learn about how to live a more healthy and environment friendly life.
 7. As a visitor to this website, I want to learn the benefits of organic deodorants.
-8. As a customer or a potential customer, I want to know the price of the product.
-9. As a customer or a potential customer, I want to know where I can buy the products
-10. As a customer or a potential customer, I want to know about the ingredients in the products.
+8. As a visitor to this website, I want to learn the dangers of non organic deodorants.
+9. As a customer or a potential customer, I want to know the price of the product.
+10. As a customer or a potential customer, I want to know where I can buy the products
+11. As a customer or a potential customer, I want to know about the ingredients in the products.
 
 #### Wireframe mockups:
 
@@ -337,12 +338,43 @@ Answer:
 - The bottle image of each product has the text 100% natural to ensure the user that it is only natural ingredients.
 - The texts on the home page tells the user that there is only natural ingredients in all products.
 - The mission and vision text on the about page tells the user that there is only natural organic ingredients in all products.
+
 ## Deployment
 
 ---
 
 This projects was developed using Gitpod and Vs code. committed to git and pushed to GitHub from Gitpod. The website is published on Github pages. To view the web-site click the following link. https://marc-solution.github.io/Mavera/
 
+These steps were taken to deploy this page to GitHub Pages from its Github repository:
+
+1. Log in to GitHub.
+2. Select Marc-Solution/Mavera from the list of repositories.
+3. Select settings from the menu items.
+4. Scroll down to the GitHub Pages section.
+5. There is drop-down menu labeled None. Click it and select Master Branch.
+6. Click the save button. The page is now deployed.
+7. The page is automatically refreshed, so you need to scroll back down to the GitHub Pages section. There you can find the link to the deployed website.
+
+### Run the project locally
+
+#### How to download the project to your computer:
+
+1. Follow this link to the [GitHub repository](https://github.com/Marc-Solution/Mavera) for this project.
+2. Click the drop-down button with the text Code on it.
+3. Click Download Zip. A zip with all the project files will be downloaded to your computer.
+4. Double click the zip file. The project folder with all the files will appear.
+5. Open the folder with your local IDE.
+
+#### How to clone this project from GitHub using your local IDE:
+
+1. Start your local IDE.
+2. Open Git Bash in your Local IDE.
+3. Change the directory to the location where you want the cloned directory to be made.
+4.  Follow this link to the [GitHub repository](https://github.com/Marc-Solution/Mavera) for this project.
+5. Click the drop-down button with the text Code.
+6. In the HTTPS section, copy the URL for the repository.
+7. In in the Git Bash in your local IDE, type git clone and paste the URL for the repository.
+8. Press Enter and your clone will be created.
 
 ## Credits
 
