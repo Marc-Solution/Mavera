@@ -1,6 +1,40 @@
 ![alt](assets/images/mavera-logo.png)
 
+# Table of contents
 
+1. Mavera 
+    - A short description of this website.
+
+2. Ux
+   - The business goals for this website.
+   - The user goals website.
+   - User stories.
+   - Wireframes.
+   - Design choises.
+3. Features
+   - Existing features.
+   - Features left to implement.
+   - Technologies used.
+   - New features added after testing.
+4. Testing
+    - Browsers.
+    - Changes made after testing.
+    - W3 validator.
+    - HTML validator.
+    - CSS validator.
+    - Contact and Newsletter forms.
+    - Testing the user stories.
+
+5. Deployment
+    - GitHub Pages.
+    - How to download the project.
+    - How to clone the project.
+
+6. Credits
+    - Code.
+    - Content.
+    - Media.
+    - Acknowledgements.
 
 # MaVera
 
@@ -160,7 +194,7 @@ The contact form has 4 input fields and a submit button. These are the input fie
 - Fontawesome
 - Google fonts
 
-### Features added after testing
+### New features added after testing
 
 #### Added changes to the products cards
 
@@ -188,7 +222,7 @@ I have tested it on my laptop computer and also on a big screen. I tested it on 
 
 I also asked friends to test the web site on their mobiles. It all works as it should.
 
-### Changes I made after testing.
+### Changes made after testing
 
 When testing the products cards on the smallest size smartphone and also the tablet size in google chrome, Firefox and Opera it looked strange. The text got very stretched out and it didn’t look good. I also tested this on a real Iphone and a Samsung Galaxy with the same result. I removed the product info text from the card and changed it to a button with the text Read more. This button opens a modal with the product info text.
 
@@ -355,6 +389,8 @@ Answer:
 ## Deployment
 
 ---
+
+### GitHub Pages
 
 This projects was developed using Gitpod and Vs code. committed to git and pushed to GitHub from Gitpod. The website is published on Github pages. To view the web-site click the following link. https://marc-solution.github.io/Mavera/
 
