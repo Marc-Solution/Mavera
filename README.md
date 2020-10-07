@@ -158,7 +158,13 @@ The contact form has 4 input fields and a submit button. These are the input fie
 - Fontawesome
 - Google fonts
 
-### Features added after my second mentor session
+### Features added after testing
+
+#### Added changes to the products cards
+
+The original idea for the products cards did not look so good when testing it. The product information text on the cards became very stretched out on the mobile and smartphone versions.  I solved this by creating a popup modal with the pruduct infomation text. Instead of having the product info text on the card there is a button that opens up a popup modal with the product information text.  Each product have a popup modal with the product information text, a buy button that takes the user to the fictional facebook web shop, and a background image with a nature theme. 
+
+#### Features added after my second mentor session
 
 After going through the web site with my mentor, he suggested that I should add a link to a webshop. He said that if this was a real company web-site that they could easily start a facebook webshop and that I should add a link to a Facebook web shop on the web site. So I did that. 
 
