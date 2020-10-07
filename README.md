@@ -4,6 +4,8 @@
 
 # MaVera
 
+[View the website in GitHub Pages ](https://marc-solution.github.io/Mavera/)
+
 A website for the company Mavera. The company's intention is to give information about and to sell their organic 100% natural deodorants. ( This is not a real company or product. They don't exist yet. This website is made for a school assignment. )
 
 #### There is two types of customer we aim for:
@@ -107,7 +109,7 @@ Efter this there's a headline that says Products. Then there are 3 bootstrap4 ca
 
 Then comes a text section with information about which retailers sell the product and the price.
 
-Efter this comes a thank you note to the customers ( Inspired by Lily & hannas ice cream )
+Efter this comes a thank you note to the customers.
 
 ### About
 
@@ -183,6 +185,8 @@ There are links to The fictional Facebook web shop on all pages and in the navba
 
 I tried these browsers. I looked at all the different sizes in the inspect mode ( Except for in safari, because it does not have that option). It works in widescreen, desktop, tablet and mobile.
 I have tested it on my laptop computer and also on a big screen. I tested it on two different Iphones and on a Samsung Galaxy. It works as it should on all devises.
+
+I also asked friends to test the web site on their mobiles. It all works as it should.
 
 ### Changes I made after testing.
 
