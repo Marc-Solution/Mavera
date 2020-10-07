@@ -202,7 +202,7 @@ The original idea for the products cards did not look so good when testing it. T
 
 #### Features added after my second mentor session
 
-After going through the web site with my mentor, he suggested that I should add a link to a webshop. He said that if this was a real company web-site that they could easily start a facebook webshop and that I should add a link to a Facebook web shop on the web site. So I did that. 
+After going through the website with my mentor, he suggested that I should add a link to a webshop. He said that if this was a real company web-site that they could easily start a facebook webshop and that I should add a link to a Facebook web shop on the website. So I did that. 
 
 There are links to The fictional Facebook web shop on all pages and in the navbar.  Since this is a fictional Company ( at least at this point ) The links only go to Facebook.com, not to the company’s Facebook web shop since it does not exist. 
 
@@ -220,7 +220,7 @@ There are links to The fictional Facebook web shop on all pages and in the navba
 I tried these browsers. I looked at all the different sizes in the inspect mode ( Except for in safari, because it does not have that option). It works in widescreen, desktop, tablet and mobile.
 I have tested it on my laptop computer and also on a big screen. I tested it on two different Iphones and on a Samsung Galaxy. It works as it should on all devises.
 
-I also asked friends to test the web site on their mobiles. It all works as it should.
+I also asked friends to test the website on their mobiles. It all works as it should.
 
 ### Changes made after testing
 
@@ -495,6 +495,6 @@ I received inspiration for this project from:
 
 - https://zenhabits.net/ I was inspired by the simplicity of this page.
 
-- I received inspiration for the text in the retailers section on the products page from https://www.lilyohanna.se/en/ (Click the retailers link in the navbar and you will find the section) I got the ide to write the thank you message to the customers from the lilyohanna web site.  
+- I received inspiration for the text in the retailers section on the products page from https://www.lilyohanna.se/en/ (Click the retailers link in the navbar and you will find the section) I got the ide to write the thank you message to the customers from the lilyohanna website.  
 
 - I received inspiration for the text about the deodorants on the home page from https://beekings.com/product/natural-deodorant-subscription/
