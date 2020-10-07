@@ -72,13 +72,7 @@ The company's aim is to reach people that care about nature, therefor I used bea
 
 Most of the page is in black, white and gray. I used colorful images to sparkle up the page. 
 
-In the product modals I use colorful backgrounds.
-
-- For Lavender I used a purple background color because Lavender i the color purple.
-- For EucalyptusI used a green background color because  eucalyptus leaves are green.
-- For Citronella I used a yellow background color because a citrus kind of smell is associated with the the collor yellow.
-
-For the newsletter form I used the sam purple color as for the Lavender popup, because I thought it looked good. 
+In the product modals I use colorful background images for each individual product that reminds of the ingredients in the product.
 
 ## Features
 
@@ -149,7 +143,6 @@ The contact form has 4 input fields and a submit button. These are the input fie
 
 ### Features Left to Implement
 
-- A webshop. So that the company can sell their products directly from the webpage. At the moment they only provide information about what retailers sell their products.
 - A blog. The purpose for the blog is content marketing and brand awareness
 - A scrollable products gallery when the company has more products to offer.
 - A FAQ page or section. This is relevant when the company has received more knowledge of what people want to know.
@@ -165,6 +158,11 @@ The contact form has 4 input fields and a submit button. These are the input fie
 - Fontawesome
 - Google fonts
 
+### Features added after my second mentor session
+
+After going through the web site with my mentor, he suggested that I should add a link to a webshop. He said that if this was a real company web-site that they could easily start a facebook webshop and that I should add a link to a Facebook web shop on the web site. So I did that. 
+
+There are links to The fictional Facebook web shop on all pages and in the navbar.  Since this is a fictional Company ( at least at this point ) The links only go to Facebook.com, not to the company’s Facebook web shop since it does not exist. 
 
 ## Testing
 
