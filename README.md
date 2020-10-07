@@ -446,10 +446,10 @@ The sources to that information is:
 
 I received inspiration for this project from: 
 
-- The Code Institutet assignments Love running, Whiskey drop and The Resume project
+- The Code Institutet assignments Love running, Whiskey drop and The Resume project.
 
-- https://zenhabits.net/  I liked that it was very simple
--I received inspiration for the text on the products for the retailers section from https://www.lilyohanna.se/en/ (Click the retailers link in the heading and you will find the section)
-- I received inspiration for the text on the home page from https://beekings.com/product/natural-deodorant-subscription/
+- https://zenhabits.net/ I was inspired by the simplicity of this page.
 
+- I received inspiration for the text in the retailers section on the products page from https://www.lilyohanna.se/en/ (Click the retailers link in the navbar and you will find the section) I got the ide to write the thank you message to the customers from the lilyohanna web site.  
 
+- I received inspiration for the text about the deodorants on the home page from https://beekings.com/product/natural-deodorant-subscription/
