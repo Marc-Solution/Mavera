@@ -100,7 +100,7 @@ The company's aim is to reach people that care about nature, therefor I used bea
 - The image on the products page is a tree with flowers. Flowers smell good, so the intention is to remind the user of fresh scents.
 - On the about page there is an image of a sunrise. According to some cultures a sunrise is a symbol for a new beginning and victory. Why i choose this symbol is because the company vision and mission is to create a new better world and to overcome destructive habits.
 - On the contact page there is a pleasant looking image of water. The symbolism of this image is: Water connects us all. 
-
+- 
 ### Colors
 
 Most of the page is in black, white and gray. I used colorful images to sparkle up the page. 

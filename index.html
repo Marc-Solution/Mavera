@@ -46,12 +46,13 @@
     <main>
         <!-- This section contains the banner images -->
         <section>
-            <div id="main-img-container">
-                <div class="container-fluid d-none d-md-block d-xl-block d-lg-block" id="main-image"></div>
-            </div>
-            <div>
-                <div class="container-fluid  d-block d-md-none" id="mobile-main-image"></div>
-            </div>
+            <!-- I use the title attribute to describe the image instead of alt attribute. I describe it more in the README.md file -->
+            <!-- This images only shows on large and medium screens -->
+                <div class="container-fluid d-none d-md-block d-xl-block d-lg-block" id="main-image" title="Forest image"></div>
+           
+            <!-- This images only shows on smalls screens -->
+                <div class="container-fluid  d-block d-md-none" id="mobile-main-image" title="Deodorant bottle image"></div>
+           
         </section>
         <section>
             <div class="container jumbotron">
