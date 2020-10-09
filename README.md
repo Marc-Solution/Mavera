@@ -203,7 +203,7 @@ After going through the website with my mentor, he suggested that I should add a
 
 There are links to The fictional Facebook web shop on all pages and in the navbar.  Since this is a fictional Company ( at least at this point ) The links only go to Facebook.com, not to the company’s Facebook web shop since it does not exist. 
 
-
+#### Features added after my third mentor session
 
 # Testing
 

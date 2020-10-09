@@ -10,7 +10,8 @@
 2. [Changes made after testing](#changes-made-after-testing)
 3. [W3 validator](#w3-validator)
 4. [Contact and newsletter forms](#contact-and-newsletter-forms)
-5. [Testing the user stories](#testing-the-user-stories)
+5. [Alt attribute for images](#alt-attribute-for-images)
+6. [Testing the user stories](#testing-the-user-stories)
 ---
 
 # Browsers I tested
@@ -61,6 +62,10 @@ I tested the contact and newsletter forms.
 - When submitting without any message an error message about the required fields appears.
 - When submitting with an invalid email address an error message about the required fields appears.
 - When submitting the form with all inputs valid a success message success message opens in a new tab.
+
+# Alt attribute for images
+
+For the banner images on the website I use a div with the image as background. I used the title attribute on the banner images to describe the image instead of the alt attribute since an alt attribute won’t work on a div.
 
 # Testing the user stories
 
