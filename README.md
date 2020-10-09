@@ -2,21 +2,23 @@
 
 # Table of contents
 
-1. Mavera 
-    - A short description of this website.
+1. [Mavera](#mavera)
+    
+    - A short description of this website
+    - There is two types of customer we aim for
 
-2. Ux
+2. [Ux](#ux)
    - The business goals for this website.
    - The user goals website.
    - User stories.
    - Wireframes.
    - Design choises.
-3. Features
+3. [Features](#features)
    - Existing features.
    - Features left to implement.
    - Technologies used.
    - New features added after testing.
-4. Testing
+4. [Testing](#testing)
     - Browsers.
     - Changes made after testing.
     - W3 validator.
@@ -25,12 +27,12 @@
     - Contact and Newsletter forms.
     - Testing the user stories.
 
-5. Deployment
+5. [Deployment](#deployment)
     - GitHub Pages.
     - How to download the project.
     - How to clone the project.
 
-6. Credits
+6. [Credits](#credits)
     - Code.
     - Content.
     - Media.
@@ -38,16 +40,18 @@
 
 # MaVera
 
+### A short description of this website
+
 [View the website in GitHub Pages ](https://marc-solution.github.io/Mavera/)
 
 A website for the company Mavera. The company's intention is to give information about and to sell their organic 100% natural deodorants. ( This is not a real company or product. They don't exist yet. This website is made for a school assignment. )
 
-#### There is two types of customer we aim for:
+### There is two types of customer we aim for:
 
 1. The customer already knows why he or she wants to use natural deodorant and is looking for a good product. They already know about the danger of using ordinary deodorants that have chemical ingredients. This person has already decided to use organic deodorants.
 2. Potential customer: This person is curious and wants to find information about the benefits of organic deodorants. This person is looking for reasons to use deodorants with only natural ingredients.
 
-## UX
+# UX
 
 ---
 
@@ -110,7 +114,7 @@ Most of the page is in black, white and gray. I used colorful images to sparkle 
 
 In the product modals I use colorful background images for each individual product that reminds of the ingredients in the product.
 
-## Features
+# Features
 
 ---
 
@@ -206,7 +210,7 @@ After going through the website with my mentor, he suggested that I should add a
 
 There are links to The fictional Facebook web shop on all pages and in the navbar.  Since this is a fictional Company ( at least at this point ) The links only go to Facebook.com, not to the company’s Facebook web shop since it does not exist. 
 
-## Testing
+# Testing
 
 ---
 
@@ -386,7 +390,7 @@ Answer:
 - The texts on the home page tells the user that there is only natural ingredients in all products.
 - The mission and vision text on the about page tells the user that there is only natural organic ingredients in all products.
 
-## Deployment
+# Deployment
 
 ---
 
@@ -425,7 +429,7 @@ These steps were taken to deploy this page to GitHub Pages from its Github repos
 7. In in the Git Bash in your local IDE, type git clone and paste the URL for the repository.
 8. Press Enter and your clone will be created.
 
-## Credits
+# Credits
 
 ---
 

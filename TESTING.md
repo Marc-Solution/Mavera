@@ -2,14 +2,15 @@
 
 ## Table of contents
 
-1. Browsers I tested
-2. Changes made after testing
-3. W3 validators
-4. Contact and newsletter forms
-5. Testing the user stories
+1. [Browsers I tested](#browsers-i-tested)
+2. [Changes made after testing](#changes-made-after-testing)
+3. [W3 validator](#w3-validator)
+4. [Contact and newsletter forms](#contact-and-newsletter-forms)
+5. [Testing the user stories](#testing-the-user-stories)
+
 ---
 
-### Browsers I tested
+# Browsers I tested
 
 - Chrome
 - Firefox
@@ -21,7 +22,7 @@ I have tested it on my laptop computer and also on a big screen. I tested it on 
 
 I also asked friends to test the website on their mobiles. It all works as it should.
 
-### Changes made after testing
+# Changes made after testing
 
 When testing the products cards on the smallest size smartphone and also the tablet size in google chrome, Firefox and Opera it looked strange. The text got very stretched out and it didn’t look good. I also tested this on a real Iphone and a Samsung Galaxy with the same result. I removed the product info text from the card and changed it to a button with the text Read more. This button opens a modal with the product info text.
 
@@ -30,7 +31,7 @@ After my second mentor session for this project, I added a added links to a fict
 I tested the buy button that links to the company’s fictional Facebook web shop. 
 I tested it in all browsers and devices i mentioned earlier. It works as it should and the link opens in a new tab.
 
-### W3 validator
+# W3 validator
 
 #### HTML validator - https://validator.w3.org/
 
@@ -51,14 +52,14 @@ There where also some warnings. Again it was not from any code I’ve written. I
 
 I wrote to tutor assistance. They said it will be ok as long as I mention it here in this README. 
 
-### Contact and newsletter forms
+# Contact and newsletter forms
 
 I tested the contact and newsletter forms. 
 - When submitting without any message an error message about the required fields appears.
 - When submitting with an invalid email address an error message about the required fields appears.
 - When submitting the form with all inputs valid a success message success message opens in a new tab.
 
-### Testing the user stories:
+# Testing the user stories
 
 ### User Story item 1: 
 
