@@ -482,6 +482,7 @@ The sources to that information is:
 - The bottle image where photographed by Klara Kazmi
 - The bottles were designed in Photoshop by Klara Kazmi
 - The banner image on the products page was obtained from https://www.hdwallpaper.nu/beautiful-flowers-wallpapers/ 
+- The banner image on the shop page was obtained from https://wallpaperaccess.com/bamboo
 - The banner image on the about page was obtained from https://www.zedge.net/wallpaper/d77a9e3e-91f3-30bf-9a9d-cbc4bc685a9e
 - The banner image on the contact page was obtained from https://wallpapersafari.com/w/tXIbiE
 - The woman customer image was obtained from https://unsplash.com/s/photos/woman
