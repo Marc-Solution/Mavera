@@ -1,4 +1,8 @@
-# Testing
+# Mavera Website Testing details
+
+[Main README.md file](README.md)
+
+[View the website in GitHub Pages ](https://marc-solution.github.io/Mavera/)
 
 ## Table of contents
 
@@ -7,7 +11,6 @@
 3. [W3 validator](#w3-validator)
 4. [Contact and newsletter forms](#contact-and-newsletter-forms)
 5. [Testing the user stories](#testing-the-user-stories)
-
 ---
 
 # Browsers I tested
