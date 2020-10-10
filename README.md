@@ -87,7 +87,7 @@ Click this link to see my wireframes.
 
 ### Design choices
 
-I wanted the design to be very simple and give a calming feeling of nature. Therefor I chose to have pictures of nature on every page. The simplicity design and nature theme reflects the company values.
+I wanted the design to be very simple and give a calming feeling of nature. Therefor I chose to have pictures of nature on every page. The simple design and nature theme reflects the company values.
 
 ### Images
 
@@ -97,8 +97,8 @@ The company's aim is to reach people who care about nature, therefor I used beau
 
 - The image on the home page is beautiful forest image with the products in it. The symbolism of this image is to show that these products are natural.
 - The image on the products page is a tree with flowers. Flowers smell good, so the intention is to remind the user of fresh scents.
-- On the shop page there in an image of a bamboo forest. According to Feng shui fast growing plants such as bamboo is a symbol for prosperity. 
-- On the about page there is an image of a sunrise. According to some cultures a sunrise is a symbol for a new beginning and victory. This symbol reflects the company vision and mission to create a better world.
+- On the shop page there in an image of a bamboo forest. According to Feng shui, fast growing plants such as bamboo is a symbol for prosperity. 
+- On the about page there is an image of a sunrise. According to some cultures, a sunrise is a symbol for a new beginning and victory. This symbol reflects the company vision and mission to create a better world.
 - On the contact page there is a pleasant looking image of water. The symbolism of this image is: Water connects us all. 
 
 ### Colors
@@ -140,14 +140,14 @@ Contents of the products page:
 
 - Under the navbar there is a banner image of flowers ( smaller than the banner image on the home page ). All banner images are images of nature. The nature theme reflects the company’s values.
 
-- Efter this there's a headline that says Products. Then there are 3 bootstrap4 cards with 3 different products. Each card has an image of the product and a read more button. The button opens up a popup modal with information about the product.  There is information about the ingredients and benefits of each product. At the moment the company only has 3 products, so only  three product cards are needed.
+- Efter this there's a headline that says Products. Then there are three bootstrap4 cards with three different products. Each card has an image of the product and a read more button. The button opens up a popup modal with information about the product.  There is information about the ingredients and benefits of each product. At the moment the company only has three products, so only three product cards are needed.
 
 - A headline saying VISIT OUR SHOP. Under the headline is a button that links to the shop page.
 
 
 ## Shop page 
 
-The shop page was created after talking to my mentor (after the third session for this project). That is why there is no wire frame for this page.
+The shop page was created after talking to my mentor (after the third session for this project). That is why there is no wireframe for this page.
 
 Contents of the shop page:
 
@@ -165,8 +165,8 @@ Contents of the about page:
 
 - Text about why this deodorant was created.
 - Mission and Vision. Headline and text about the company’s mission and vision.
-- A text about the company values and vision for the future
-- Newsletter section. A heading and text to get people to sign up for the company's newsletter. Under this text there is a button that opens a modal popup with a newsletter signup form. 
+- A text about the company values and vision for the future.
+- Newsletter section. A heading and text to get people to sign up for the company's newsletter. Under this text there is a button that opens a modal popup with a newsletter signup form.
 
 
 #### The purposes with the newsletter are:
@@ -186,9 +186,10 @@ Contents of the contact page:
 - A contact form
 - The company Address
 - Telephone number for contacting the company
+- Email address for contacting the company
 - Social media links
 
-The contact form has 4 input fields and a submit button. These are the input fields:
+The contact form has four input fields and a submit button. These are the input fields:
 
 1. Name
 2. Your email
@@ -199,10 +200,10 @@ The contact form has 4 input fields and a submit button. These are the input fie
 
 ### Features Left to Implement
 
-- A blog. The purpose for the blog is content marketing and brand awareness
+- A blog. The purpose for the blog is content marketing and brand awareness.
 - A scrollable products gallery when the company has more products to offer.
 - A FAQ page or section. This is relevant when the company has received more knowledge of what people want to know.
-- The option to choose languages
+- The option to choose languages.
 
 ## Technologies Used
 
@@ -218,9 +219,9 @@ The contact form has 4 input fields and a submit button. These are the input fie
 
 ### Added changes to the products cards
 
-The original idea for the products cards did not look so good when testing it. The product information text on the cards became very stretched out on the mobile and smartphone versions.  I solved this by creating a popup modal with the product information text. Instead of having the product info text on the card there is a button that opens up a popup modal with the product information text.  Each product have a popup modal with the product information text, a buy button that takes the user to the fictional facebook web shop, and a background image with a nature theme. 
+The original idea for the products cards did not look so good when testing it. The product information text on the cards became very stretched out on the mobile and tablet versions.  I solved this by creating a popup modal with the product information text. Instead of having the product info text on the card there is a button that opens up a popup modal with the product information text.  Each product have a popup modal with the product information text, a button that takes the user to the shop page, and a background image with a nature theme. 
 
-### Features added after mymentor sessions
+### Features added after my mentor sessions
 
 After going through the website with my mentor, he suggested that I should add a link to a webshop. He said that if this was a real company website, they could easily start a facebook and instagram webshop, and that I should add a links to the webshops. So I did that. 
 
@@ -237,7 +238,7 @@ Testing information can be found in separate [TESTING.md file](TESTING.md)
 
 ### GitHub Pages
 
-This projects was developed using Gitpod and Vs code. committed to git and pushed to GitHub from Gitpod. The website is published on Github pages. To view the web-site click the following link. https://marc-solution.github.io/Mavera/
+This projects was developed using Gitpod and Vs code. committed to git and pushed to GitHub from Gitpod. The website is published on Github pages. To view the website click the following link. https://marc-solution.github.io/Mavera/
 
 These steps were taken to deploy this page to GitHub Pages from its Github repository:
 
@@ -262,12 +263,12 @@ These steps were taken to deploy this page to GitHub Pages from its Github repos
 #### How to clone this project from GitHub using your local IDE:
 
 1. Start your local IDE.
-2. Open Git Bash in your Local IDE.
+2. Open Git Bash in your local IDE.
 3. Change the directory to the location where you want the cloned directory to be made.
 4.  Follow this link to the [GitHub repository](https://github.com/Marc-Solution/Mavera) for this project.
 5. Click the drop-down button with the text Code.
 6. In the HTTPS section, copy the URL for the repository.
-7. In in the Git Bash in your local IDE, type git clone and paste the URL for the repository.
+7. In the Git Bash in your local IDE, type git clone and paste the URL for the repository.
 8. Press Enter and your clone will be created.
 
 # Credits
@@ -285,11 +286,11 @@ This project uses bootstrap4
     - I learned from this tutorial how to make the footer stick at the bottom. https://www.youtube.com/watch?v=US_3XvufMLU
 
 - Responsive image
-    - I learned from this tutorial how to make the image under navbar (on all pages) responsive. https://www.youtube.com/watch?v=VF5kD6QEEag
+    - I learned from this tutorial how to make the banner image (on all pages) responsive. https://www.youtube.com/watch?v=VF5kD6QEEag
 
 - Modal Popup
     - The code for the modal I got from the bootstrap documentation. I changed the code a little bit. I use the modal in the products cards and for the newsletter.
-    - The changes I did for the products modal was that I removed the modal header and added a background color. I inserted a text with product information.
+    - The changes I did for the products modal was that I removed the modal header and added a background image. I inserted a text with product information and I added a button that links to the shop page.
     - In the newsletter modal I inserted a newsletter form
 
 - Newsletter form
@@ -299,7 +300,7 @@ This project uses bootstrap4
 - Contact form
     - The contact form is a mix between:
         - My own code
-        - code that i got from following this tutorial https://www.youtube.com/watch?v=52pEihWDQ9A
+        - Code that i got from following this tutorial https://www.youtube.com/watch?v=52pEihWDQ9A
         - And I got some parts from the bootstrap documentation
 
 First I followed the tutorial but i did not use a background image. I also styled it a little bit differently. The address, phone number and email-address part I got from the bootstrap documentation.
@@ -322,7 +323,7 @@ The sources to that information is:
 
 - The logo image in the navbar was designed by Klara Kazmi
 
-- The banner image on the home page under navbar was obtained from https://unsplash.com/photos/7rIE9DPdo80 . The deodorant bottles on the image was added with Photoshop by Klara Kazmi
+- The banner image on the home page under navbar was obtained from https://unsplash.com/photos/7rIE9DPdo80 . The deodorant bottles on the image was added using Photoshop by Klara Kazmi
 - The bottle image where photographed by Klara Kazmi
 - The bottles were designed in Photoshop by Klara Kazmi
 - The banner image on the products page was obtained from https://www.hdwallpaper.nu/beautiful-flowers-wallpapers/ 
@@ -340,7 +341,7 @@ I received inspiration for this project from:
 
 - https://zenhabits.net/ I was inspired by the simplicity of this page.
 
-- I received inspiration for the text in the retailers section on the products page from https://www.lilyohanna.se/en/ (Click the retailers link in the navbar and you will find the section) I got the ide to write the thank you message to the customers from the lilyohanna website.  
+- I received inspiration for the text in the retailers section on the products page from https://www.lilyohanna.se/en/ . Click the retailers link in the navbar and you will find the section) I got the idea to write the thank you message to the customers from the lilyohanna website.  
 
 - I received inspiration for the text about the deodorants on the home page from https://beekings.com/product/natural-deodorant-subscription/
 
