@@ -1,4 +1,4 @@
-# Mavera Website Testing details
+# Mavera Website Testing Details
 
 [Main README.md file](README.md)
 
@@ -10,8 +10,9 @@
 2. [Changes made after testing](#changes-made-after-testing)
 3. [W3 validator](#w3-validator)
 4. [Contact and newsletter forms](#contact-and-newsletter-forms)
-5. [Alt attribute for images](#alt-attribute-for-images)
-6. [Testing the user stories](#testing-the-user-stories)
+5. [Links and buttons](#links-and-buttons)
+6. [Alt attribute for images](#alt-attribute-for-images)
+7. [Testing the user stories](#testing-the-user-stories)
 ---
 
 # Browsers tested
@@ -28,12 +29,7 @@ I also asked friends to test the website on their mobiles. It all works as it sh
 
 # Changes made after testing
 
-When testing the products cards on the smallest size smartphone and also the tablet size in Google chrome, Firefox and Opera it looked strange. The text got very stretched out and it didn’t look good. I also tested this on a real Iphone and a Samsung Galaxy with the same result. I removed the product info text from the card and changed it to a button with the text Read more. This button opens a modal with the product info text.
-
-After my second mentor session for this project, I added a added links to a fictional facebook webshop. I added a link to the shop in the navbar and also a buy button that links to the fictional shop. The button can be found on all pages, except on the contact page. There is also a buy button in the popup modal in each product card.
-
-I tested the buy button that links to the company’s fictional Facebook web shop. 
-I tested it in all browsers and devices i mentioned earlier. It works as it should and the link opens in a new tab.
+When testing the products cards on mobile size and tablet size in Google chrome, Firefox and Opera it looked strange. The text got very stretched out and it didn’t look good. I also tested this on a real Iphone and a Samsung Galaxy with the same result. I solved this by removing the product info text from the card and changed it to a button with the text Read more. This button opens a modal with the product info text.
 
 # W3 validator
 
@@ -58,6 +54,13 @@ There where also some warnings. Again it was not from any code I’ve written. I
 
 I wrote to tutor assistance. They said it will be ok as long as I mention it here in this README. 
 
+# Links and buttons
+
+- I have tested all the links in the navbar and they work as the should.
+- I have tested all the links in the footer. They work as they should. They open up in a new tab. The links go to the company’s Instagram and Facebook pages.
+- I have tested all internal links and buttons. They all work as they should.
+
+
 # Contact and newsletter forms
 
 I tested the contact and newsletter forms. 
@@ -67,7 +70,10 @@ I tested the contact and newsletter forms.
 
 # Alt attribute for images
 
-For the banner images on the website I use a div with the image as background. I used the title attribute on the banner images to describe the image instead of the alt attribute since an alt attribute won’t work on a div.
+For the banner images on the website I use a div with the image as background. I used the title attribute in the div element containing the banner images to describe the image instead of the alt attribute since an alt attribute won’t work on a div.
+
+Other than that, all images has an alt attribute describing the image.
+
 
 # Testing the user stories
 
@@ -78,7 +84,7 @@ As a new visitor to this company website, I want to instantly know what this com
 Answer: 
 
 - The user wants to know what this page website is about. The banner image on the home page show bottles of organic deodorants so that the user will instantly know that this is a website for an organic deodorant. The texts on the home page gives the user information about the product.
-- On the mobile version there is another hero image. This image is a close up on the deodorant bottle so that the user easily can read the text on the bottle.
+- On the mobile version there is another banner image. This image is a close up on the deodorant bottle so that the user easily can read the text on the bottle.
 - The first headline of the home page clearly states that it is a website for an organic deodorant.
 - The products page shows that the products are organic deodorants.
 
@@ -100,11 +106,11 @@ As a visitor to this website, I want to easily navigate the site so that I can f
 Answer:
 
 - There is a responsive navbar that makes it easy to navigate the website. 
-- If the user wants to know more about the products, they can click the products link in the nav bar. The products page gives the user information about each individual product. It also links to the shop page where they can information on where to buy it. 
-- If the user wants to know more about the company, they can click the about link in the nav bar. The about page tells the user about the company values.
+- If the user wants to know more about the products, they can click the products link in the navbar. The products page gives the user information about each individual product. It also links to the shop page where they can information on where to buy it. 
+- If the user wants to know more about the company, they can click the about link in the navbar. The about page tells the user about the company values.
 - If the user wants to contact the company they can find all the contact information on the contact page. There is a link in the navbar to the contacts page.
 - If the user wants to find retailers that sell the products there is information on the shop page.
-- If the user wants to buy the product there are several links to the web shop. There is a link to the shop in the navbar and on every page. The shop page provide links to the company webshops.
+- If the user wants to buy the product there are several links that guides the user to the shop page. The shop page provide links to the company webshops as well as retailer information. There is a link to the shop page in the navbar. The home page and the about page have a link to the shop page. The footer has links to the company’s Facebook and Instagram pages.
 
 See images below.
 
@@ -116,6 +122,8 @@ See images below.
 
 ![webshop links image](assets/images/testing-images/webshop-links.png)
 
+![webshop links image](assets/images/testing-images/footer-image.png)
+
 ### User Story item 3: 
 
 As a visitor to this website, I want to find organic deodorants.
@@ -126,6 +134,8 @@ Answer:
 - The product page provide more information about the deodorants
 - The shop page provide retailer information and links to webshops where the user can buy the products.
 - The home page provide a link to the products page. The about and products page provide links to the shop page. Also the navbar provide a link to the shop page. It is easy for the user to navigate the website to know where they can get the product
+
+See the image below.
 
 ![products image](assets/images/testing-images/products-image.png)
 
@@ -152,7 +162,7 @@ Answer:
 
 - The banner image on the home page shows a deodorant bottle with the text 100% natural. This reflects the company value and intention to only use natural organic ingredients. (See image above in User story item 1 section)
 - The first headline and text on the home page tells the user that it is an organic product with natural ingredients. This reflects the company value and intention to only use natural organic ingredients. (See image above in User story item 4 section)
-- The second text and headline on the home page tells the user that there are only natural and organic ingredients in the products. This also reflects the company value and intention to only use natural organic ingredients.
+- The second text and headline on the home page tells the user that there are only natural and organic ingredients in the products. This also reflects the company value and intention to only use natural organic ingredients. (See image above in User story item 4 section)
 - The mission and vision text on the about page shows the user that the company values are to support an environment friendly cause.
 
 See the image below.
@@ -165,7 +175,7 @@ As a customer or a potential customer to this company I want to learn about how 
 
 Answer:
 
-- The company’s  way of spreading awareness of a healthier and more environment friendly lifestyle will mostly be through the blog and newsletter, but also through social media.  For the moment the company answers this need through the newsletter and social media channels. 
+- The company’s way of spreading awareness of a healthier and more environment friendly lifestyle will mostly be through the blog and newsletter, but also through social media. For the moment the company answers this need through the newsletter and social media channels. The website provide links to the company’s Facebook and Instagram pages. On the about page the user can sign up for the company’s newsletter to learn more about this topic.
 
 - A feature left to implement is a blog. One of the purposes for the blog is to help people live more healthy and environment friendly lives. Other purposes is to raise brand awareness and content marketing.
 
@@ -236,9 +246,9 @@ Answer:
 
 - The retailers section on the shop page tells the user which retailers ( in Sweden ) that sell the products. (See the retailers image in user story item 9 section)
 - There are links to the company webshops on the shop page. There is text that tells the user that the links will take them to the webshop. (See the images in user story item 9 section)
-- The Footer on all pages provide links to the company webshops. (See image below)
+- The Footer on all pages provide links to the company social media pages where they can buy the products.  (See image below)
 - The products and about page have links to the shop page. On the shop page the user can find information on where to buy the products. (See image below)
-
+- The contact page provide links to the company's social media pages where they can buy the products. 
 See the images below.
 
 ![Footer image](assets/images/testing-images/footer-image.png)
@@ -260,4 +270,4 @@ See the images below.
 
 ![ingredients image](assets/images/testing-images/ingredients.png)
 
-![deodorant image](assets/images/testing-images/bottle-image.jpg)
+![deodorant image](assets/images/bottle-image.jpg)
