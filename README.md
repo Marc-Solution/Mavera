@@ -109,54 +109,67 @@ In the product modals I use colorful background images for each individual produ
 
 # Features
 
-
-
 ### Existing Features
 
-#### On all pages:
+### All pages contains:
 
-- A responsive navbar with links to each respective page on the website. 
-- The company logo in the navbar. Clicking the logo returns users to the home page.
-- A Footer on all pages with social media links. The links open a new tab in the browser.
+- A responsive navbar with links to each respective page on the website
+- The company logo in the navbar. Clicking the logo returns users to the home page
+- A banner image. The images are different on each page but they all have a nature theme
+- A Footer on all pages with social media links. The links open a new tab in the browser
 
 The navbar is on the top of the page and the footer in the bottom on all pages on the website.
 
-### Home
+## Home page
 
-A large image of the products on the home page, just under the navbar. The purpose is that the user instantly will know that they can find organic natural deodorants on this website.
+Contents of the home page:
 
-Headline and text on home page that describes the products. The intention is to sell the product.
+- On the home page ther is a large banner image of deodorant bottles in a forest. The purpose is that the user instantly will know that they can find organic natural deodorants on this website.
 
-Headline and text on home page that describes the ingredients of the product. The intention with this text is to assure the customer or potential customer that the company only uses 100% natural organic ingredients. Also, the purpose is to brand the company as environmentally friendly.
+- Headline and text on home page that describes the products. The intention is to sell the product.
 
-After the texts comes two customer reviews. There is an image of the customer and what they say. ( The code for this section I took from the page whiskey drop that is a Code institute assignment. )
+- Headline and text on home page that describes the ingredients of the product. The intention with this text is to assure the customer or potential customer that the company only uses 100% natural organic ingredients. Also, the purpose is to brand the company as environmentally friendly.
 
 
-### Products 
+- Customer reviews section. There are two customer reviews. Each review has an image of the customer and a text describing their review. The code for the customer reviews  section I got  from following the whiskey drop website assignment in the Code institute course.
 
-Under the navbar there is an image that shows the products. Not the same image that's on the home page.
 
-Efter this there's a headline that says Products. Then there are 3 bootstrap4 cards with 3 different products. Each card has an image of the product and some text. There is information about the ingredients of each product. At the moment the company only has 3 products. It has 3 different deodorants, so 3 bootstrap4 cards is enough.
+## Products page
 
-Then comes a text section with information about which retailers sell the product and the price.
+Contents of the products page:
 
-Efter this comes a thank you note to the customers.
+- Under the navbar there is a banner image of flowers ( smaller than the banner image on the home page ). All banner images are images of nature. The nature theme reflects the company’s values.
 
-### About
+- Efter this there's a headline that says Products. Then there are 3 bootstrap4 cards with 3 different products. Each card has an image of the product and a read more button. The button opens up a popup modal with information about the product.  There is information about the ingredients and benefits of each product. At the moment the company only has 3 products, so only  three product cards are needed.
 
-About text: 
+- A headline saying VISIT OUR SHOP. Under the headline is a button that links to the shop page.
 
-Text about why this deodorant was created.
 
-Mission and Vision: 
+## Shop page 
 
-A text about the company values and vision for the future
+The shop page was created after talking to my mentor (after the third session for this project). That is why there is no wire frame for this page.
 
-Newsletter: 
+Contents of the shop page:
 
-A heading and text to get people to sign up for the company's newsletter. Under this text there is a button that opens a pop up with a newsletter signup form. ( The newsletter is without backend for the moment )
+- Headline and text describing where to buy the products 
+- Link to the company's facebook webshop
+- Link to the company's instagram webshop 
+- Retailers section with retailer information
+- A thank you message to the customers
 
-The purposes with the newsletter are:
+
+
+## About page
+
+Contents of the about page:
+
+- Text about why this deodorant was created.
+- Mission and Vision. Headline and text about the company’s mission and vision.
+- A text about the company values and vision for the future
+- Newsletter section. A heading and text to get people to sign up for the company's newsletter. Under this text there is a button that opens a modal popup with a newsletter signup form. 
+
+
+#### The purposes with the newsletter are:
 
 - To give tips about environment friendly living
 - To raise brand awareness
@@ -164,12 +177,16 @@ The purposes with the newsletter are:
 - To communicate with the customer
 - Competitions and lotteries where the customer can win products
 
-### Contact
+## Contact page
 
-The contact page contains:
+Contents of the contact page:
 
-1. An image at the top just under the navbar
-2. A contact form
+
+- A text to invite the user to contact the company
+- A contact form
+- The company Address
+- Telephone number for contacting the company
+- Social media links
 
 The contact form has 4 input fields and a submit button. These are the input fields:
 
@@ -197,19 +214,18 @@ The contact form has 4 input fields and a submit button. These are the input fie
 - Fontawesome
 - Google fonts
 
-### New features added after testing
+## New features added after testing
 
-#### Added changes to the products cards
+### Added changes to the products cards
 
 The original idea for the products cards did not look so good when testing it. The product information text on the cards became very stretched out on the mobile and smartphone versions.  I solved this by creating a popup modal with the product information text. Instead of having the product info text on the card there is a button that opens up a popup modal with the product information text.  Each product have a popup modal with the product information text, a buy button that takes the user to the fictional facebook web shop, and a background image with a nature theme. 
 
-#### Features added after my second mentor session
+### Features added after mymentor sessions
 
-After going through the website with my mentor, he suggested that I should add a link to a webshop. He said that if this was a real company web-site that they could easily start a facebook webshop and that I should add a link to a Facebook web shop on the website. So I did that. 
+After going through the website with my mentor, he suggested that I should add a link to a webshop. He said that if this was a real company website, they could easily start a facebook and instagram webshop, and that I should add a links to the webshops. So I did that. 
 
-There are links to The fictional Facebook web shop on all pages and in the navbar.  Since this is a fictional Company ( at least at this point ) The links only go to Facebook.com, not to the company’s Facebook web shop since it does not exist. 
+There are links to the companies webshops, in the footer, the contact page and in the shop page.
 
-#### Features added after my third mentor session
 
 # Testing
 
@@ -327,3 +343,9 @@ I received inspiration for this project from:
 - I received inspiration for the text in the retailers section on the products page from https://www.lilyohanna.se/en/ (Click the retailers link in the navbar and you will find the section) I got the ide to write the thank you message to the customers from the lilyohanna website.  
 
 - I received inspiration for the text about the deodorants on the home page from https://beekings.com/product/natural-deodorant-subscription/
+
+I want to thank my mentor Can Sücüllü for the great wisdom, guidance and inspiration he gave me for this project. 
+
+Thank you!
+
+Marco Deb
