@@ -39,7 +39,7 @@
 
 A website for the company Mavera. The company's intention is to give information about and to sell their organic 100% natural deodorants. ( This is not a real company or product. They don't exist yet. This website is made for a school assignment. )
 
-### There is two types of customer we aim for:
+### There are two types of customer we aim for:
 
 1. The customer already knows why he or she wants to use natural deodorant and is looking for a good product. They already know about the danger of using ordinary deodorants that have chemical ingredients. This person has already decided to use organic deodorants.
 2. Potential customer: This person is curious and wants to find information about the benefits of organic deodorants. This person is looking for reasons to use deodorants with only natural ingredients.
@@ -79,28 +79,28 @@ A website for the company Mavera. The company's intention is to give information
 
 #### Wireframe mockups:
 
-For wirefarmaing I used [Balsamiq](https://balsamiq.com)
+For wireframing I used [Balsamiq](https://balsamiq.com)
 
 Click this link to see my wireframes.
 
 <https://marc-solution.github.io/mavera-wireframes/>
 
-### Design choises
+### Design choices
 
-I wanted the design to be very simple and give a calming feeling of nature. Therefor I chose to have nature pictures on every page.
+I wanted the design to be very simple and give a calming feeling of nature. Therefor I chose to have pictures of nature on every page. The simplicity design and nature theme reflects the company values.
 
 ### Images
 
-The company's aim is to reach people that care about nature, therefor I used beautiful nature images to remind the user of the beauty of nature.
+The company's aim is to reach people who care about nature, therefor I used beautiful nature images to remind the user of the beauty of nature.
 
 ### All the images have a symbolic meaning
 
 - The image on the home page is beautiful forest image with the products in it. The symbolism of this image is to show that these products are natural.
-
 - The image on the products page is a tree with flowers. Flowers smell good, so the intention is to remind the user of fresh scents.
-- On the about page there is an image of a sunrise. According to some cultures a sunrise is a symbol for a new beginning and victory. Why i choose this symbol is because the company vision and mission is to create a new better world and to overcome destructive habits.
+- On the shop page there in an image of a bamboo forest. According to Feng shui fast growing plants such as bamboo is a symbol for prosperity. 
+- On the about page there is an image of a sunrise. According to some cultures a sunrise is a symbol for a new beginning and victory. This symbol reflects the company vision and mission to create a better world.
 - On the contact page there is a pleasant looking image of water. The symbolism of this image is: Water connects us all. 
-- 
+
 ### Colors
 
 Most of the page is in black, white and gray. I used colorful images to sparkle up the page. 
@@ -115,8 +115,8 @@ In the product modals I use colorful background images for each individual produ
 
 #### On all pages:
 
-- A responsive navbar with links to each respective page on the website. And a company logo. Clicking the logo returns users to the home page.
-
+- A responsive navbar with links to each respective page on the website. 
+- The company logo in the navbar. Clicking the logo returns users to the home page.
 - A Footer on all pages with social media links. The links open a new tab in the browser.
 
 The navbar is on the top of the page and the footer in the bottom on all pages on the website.
@@ -144,17 +144,23 @@ Efter this comes a thank you note to the customers.
 
 ### About
 
-About text: Text about the why the productuct was created.
+About text: 
 
-Mission and Vision: A text about the company values and vision for the future
+Text about why this deodorant was created.
 
-Newsletter: A heading and text to get people to sign up to the company's newsletter. Under this text there is a button that opens a pop up with a newsletter signup form. ( The newsletter is without backend for the moment )
+Mission and Vision: 
+
+A text about the company values and vision for the future
+
+Newsletter: 
+
+A heading and text to get people to sign up for the company's newsletter. Under this text there is a button that opens a pop up with a newsletter signup form. ( The newsletter is without backend for the moment )
 
 The purposes with the newsletter are:
 
-- To give tips about environment friendly living for.
-- To raise brand awareness.
-- Content marketing and
+- To give tips about environment friendly living
+- To raise brand awareness
+- Content marketing
 - To communicate with the customer
 - Competitions and lotteries where the customer can win products
 
@@ -195,7 +201,7 @@ The contact form has 4 input fields and a submit button. These are the input fie
 
 #### Added changes to the products cards
 
-The original idea for the products cards did not look so good when testing it. The product information text on the cards became very stretched out on the mobile and smartphone versions.  I solved this by creating a popup modal with the pruduct infomation text. Instead of having the product info text on the card there is a button that opens up a popup modal with the product information text.  Each product have a popup modal with the product information text, a buy button that takes the user to the fictional facebook web shop, and a background image with a nature theme. 
+The original idea for the products cards did not look so good when testing it. The product information text on the cards became very stretched out on the mobile and smartphone versions.  I solved this by creating a popup modal with the product information text. Instead of having the product info text on the card there is a button that opens up a popup modal with the product information text.  Each product have a popup modal with the product information text, a buy button that takes the user to the fictional facebook web shop, and a background image with a nature theme. 
 
 #### Features added after my second mentor session
 

@@ -6,7 +6,7 @@
 
 ## Table of contents
 
-1. [Browsers I tested](#browsers-i-tested)
+1. [Browsers tested](#browsers-tested)
 2. [Changes made after testing](#changes-made-after-testing)
 3. [W3 validator](#w3-validator)
 4. [Contact and newsletter forms](#contact-and-newsletter-forms)
@@ -14,9 +14,9 @@
 6. [Testing the user stories](#testing-the-user-stories)
 ---
 
-# Browsers I tested
+# Browsers tested
 
-- Chrome
+- Google Chrome
 - Firefox
 - Safari
 - Opera
@@ -28,7 +28,7 @@ I also asked friends to test the website on their mobiles. It all works as it sh
 
 # Changes made after testing
 
-When testing the products cards on the smallest size smartphone and also the tablet size in google chrome, Firefox and Opera it looked strange. The text got very stretched out and it didn’t look good. I also tested this on a real Iphone and a Samsung Galaxy with the same result. I removed the product info text from the card and changed it to a button with the text Read more. This button opens a modal with the product info text.
+When testing the products cards on the smallest size smartphone and also the tablet size in Google chrome, Firefox and Opera it looked strange. The text got very stretched out and it didn’t look good. I also tested this on a real Iphone and a Samsung Galaxy with the same result. I removed the product info text from the card and changed it to a button with the text Read more. This button opens a modal with the product info text.
 
 After my second mentor session for this project, I added a added links to a fictional facebook webshop. I added a link to the shop in the navbar and also a buy button that links to the fictional shop. The button can be found on all pages, except on the contact page. There is also a buy button in the popup modal in each product card.
 
@@ -39,7 +39,7 @@ I tested it in all browsers and devices i mentioned earlier. It works as it shou
 
 #### HTML validator - https://validator.w3.org/
 
-I tested my code in the w3 html validator. I got two errors. The first error was in the what customers say section in the index.html page. The problem was that there was no header directly after the section tag. The header came later in the section. I moved the header so that it comes directly after the section tag. It worked and it was approved.
+I tested the code in the w3 html validator. I got two errors. The first error was in the what customers say section in the index.html page. The problem was that there was no header directly after the section tag. The header came later in the section. I moved the header so that it comes directly after the section tag. It worked and it was approved.
 
 The second error was in the same section. It had to do with the customer review images. I am not really sure exactly what the second error was. I changed these two things and it got approved. 
 
@@ -50,9 +50,11 @@ After doing these changes the code was approved by W3 html validator.
 
 #### CSS validator - https://jigsaw.w3.org/css-validator/
 
-Again I got two errors. But this time the errors where not from any code i've written in my workspace. The errors were from the bootstrap library. The errors were found in this link https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css
+After testing the code in the  CSS validator, there were two errors. But this time the errors where not from any code I've written in my workspace. The errors were from the bootstrap library. The errors were found in this link:
 
-There where also some warnings. Again it was not from any code I’ve written. It came from the bootsnipp code I use for the newsletter. The warning came from this link script //cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js
+https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css
+
+There where also some warnings. Again it was not from any code I’ve written. It came from the bootsnipp code I use for the newsletter. The warning came from this link script https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js
 
 I wrote to tutor assistance. They said it will be ok as long as I mention it here in this README. 
 
@@ -61,7 +63,7 @@ I wrote to tutor assistance. They said it will be ok as long as I mention it her
 I tested the contact and newsletter forms. 
 - When submitting without any message an error message about the required fields appears.
 - When submitting with an invalid email address an error message about the required fields appears.
-- When submitting the form with all inputs valid a success message success message opens in a new tab.
+- When submitting the form with all inputs valid a success message opens in a new tab.
 
 # Alt attribute for images
 
@@ -177,7 +179,7 @@ As a visitor to this website, I want to learn the benefits of organic deodorants
 
 Answer:
 
-The benefits told on this website are that it works, will keep you smelling fresh and that it is good for nature. It allso tells the user about the health benefits for each product.
+The benefits told on this website are that it works, will keep you smelling fresh and that it is good for nature. It also tells the user about the health benefits for each product.
 The user can read about the benefits on:
 
 - The home page. It tells the user that it works, will keep you smelling fresh and that it is good for your body and nature.
@@ -207,8 +209,8 @@ This website only mention about the dangers of using non organic deodorants. Thi
 The company will spread more awareness on this topic in newsletter, blog and social media.
 
 - The user will find a newsletter signup form on the about page
-- The user will find several links to the companys social media pages, where they will be posting about this topic.
-- A feature left to implement is a blog. There will be posts about this topic in the companys blog
+- The user will find several links to the company's social media pages, where they will be posting about this topic.
+- A feature left to implement is a blog. There will be posts about this topic in the company's blog
 
 
 ### User Story item 9: 
